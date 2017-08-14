@@ -5,7 +5,7 @@ The library contains two type of password fields as a custom view for login(Visi
 
 Contains two component. One of them is a password field. Second one is an ImageView to show password.
 
-###Sample
+######Sample
 
 ```xml
     <com.serefakyuz.loginformlib.VisiblePasswordView
@@ -21,14 +21,15 @@ Contains two component. One of them is a password field. Second one is an ImageV
 
 Contains two component. First one is a password field. Second one is an TextView that shows password status dynamically. There are four password status: INVALID, WEAK, NORMAL, STRONG. There is a simple password strength level determiner implementation.
 
-There are two types of NewPasswordView. The types are newPasswordView and confirmPasswordView. Types are selected in xml by view attributes:
+There are two types of NewPasswordView. The types are **newPasswordView** and **confirmPasswordView**. Types are selected in xml by view attributes:
 
+```xml
 app:viewType="newPasswordView"
 app:viewType="confirmPasswordView"
+```
 
 
-
-###Sample
+######Sample
 
 ```xml
     
