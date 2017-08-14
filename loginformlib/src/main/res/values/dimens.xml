@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="password_et_padding">8dp</dimen>
+    <dimen name="password_status_padding_right">16dp</dimen>
+    <dimen name="password_status_margin_top">4dp</dimen>
+    <dimen name="eye_right_left_margin">6dp</dimen>
+    <dimen name="eye_top_bot_padding">8dp</dimen>
+</resources>

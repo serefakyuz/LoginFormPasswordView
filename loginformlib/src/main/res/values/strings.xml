@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">loginformlib</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="invalid_password">At least %d letters</string>
+    <string name="passwords_not_matching">Passwords are not matching</string>
+    <string name="passwords_matched">"Passwords matched!"</string>
+    <string name="current_passwords_not_matching">Current passwords are not matching</string>
+    <string name="weak_password">Weak</string>
+    <string name="normal_password">Normal</string>
+    <string name="strong_password">Strong</string>
+</resources>

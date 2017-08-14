@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasswordView">
+        <attr name="passwordHint" format="string"/>
+        <attr name="passwordHintColor" format="integer"/>
+        <attr name="etBackground" format="integer"/>
+        <attr name="etTextColor" format="integer"/>
+        <attr name="showPasswordImageSrc" format="integer"/>
+        <attr name="minPassLength" format="integer"/>
+        <attr name="strongPassLengthLimit" format="integer"/>
+        <attr name="viewType" format="enum">
+            <enum name="newPasswordView" value="0"/>
+            <enum name="confirmPasswordView" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

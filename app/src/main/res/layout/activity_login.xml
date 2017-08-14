@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.serefakyuz.loginlibrary.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/login_form_padding">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_edittext_bg"
+        android:maxWidth="@dimen/form_et_max_width"
+        android:hint="@string/username"
+        android:padding="@dimen/password_et_padding"
+        android:layout_marginBottom="@dimen/password_status_margin_top"
+        android:textColorHint="@color/white_hint"/>
+    <com.serefakyuz.loginformlib.VisiblePasswordView
+        android:id="@+id/VisiblePAsswordView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/form_et_max_width"
+        app:passwordETHint = "@string/password"
+        app:passwordETHintColor="@color/white_hint"
+        />
+
+</LinearLayout>
