@@ -1,6 +1,13 @@
 # LoginFormPasswordView
 The library contains two type of password fields as a custom view for login(VisiblePasswordView) and signup(NewPasswordView).
 
+#Features
+
+1. Visible passwords
+2. Password matching while confirming passwords
+3. Determining password strength level
+4. Min password length
+
 #VisiblePasswordView 
 
 Contains two component. One of them is a password field. Second one is an ImageView to show password.
