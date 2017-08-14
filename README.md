@@ -1,11 +1,11 @@
 # LoginFormPasswordView
 The library contains two type of password fields as a custom view for login(VisiblePasswordView) and signup(NewPasswordView).
 
-##VisiblePasswordView 
+#VisiblePasswordView 
 
 Contains two component. One of them is a password field. Second one is an ImageView to show password.
 
-######Sample
+**Sample**
 
 ```xml
     <com.serefakyuz.loginformlib.VisiblePasswordView
@@ -13,11 +13,11 @@ Contains two component. One of them is a password field. Second one is an ImageV
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxWidth="@dimen/form_et_max_width"
-        app:passwordETHint = "@string/password"
-        app:passwordETHintColor="@color/white_hint"
+        app:passwordHint = "@string/password"
+        app:passwordHintColor="@color/white_hint"
         />
 ```
-##NewPasswordView
+# NewPasswordView
 
 Contains two component. First one is a password field. Second one is an TextView that shows password status dynamically. There are four password status: INVALID, WEAK, NORMAL, STRONG. There is a simple password strength level determiner implementation.
 
@@ -29,7 +29,7 @@ app:viewType="confirmPasswordView"
 ```
 
 
-######Sample
+**Sample**
 
 ```xml
     
@@ -65,8 +65,8 @@ Full attribute list which is created both VisiblePasswordView and NewPasswordVie
 ```xml
     
 <declare-styleable name="PasswordView">
-   <attr name="passwordETHint" format="string"/>
-   <attr name="passwordETHintColor" format="integer"/>
+   <attr name="passwordHint" format="string"/>
+   <attr name="passwordHintColor" format="integer"/>
    <attr name="etBackground" format="integer"/>
    <attr name="etTextColor" format="integer"/>
    <attr name="showPasswordImageSrc" format="integer"/>
