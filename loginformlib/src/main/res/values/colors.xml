@@ -10,7 +10,7 @@
     <color name="passwordview_et_bg">#FAFAFA</color>
     <color name="transparent">#00FFFFFF</color>
     <color name="dark_gray">#666464</color>
-    <color name="invalid_pass">#7e0202</color>
+    <color name="invalid_pass">#ff0011</color>
     <color name="weak_pass">#e49400</color>
     <color name="normal_pass">#0170c4</color>
     <color name="strong_pass">#1ea101</color>

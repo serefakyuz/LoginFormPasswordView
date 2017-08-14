@@ -20,12 +20,12 @@
         android:layout_marginBottom="@dimen/password_status_margin_top"
         android:textColorHint="@color/white_hint"/>
     <com.serefakyuz.loginformlib.VisiblePasswordView
-        android:id="@+id/VisiblePAsswordView"
+        android:id="@+id/VisiblePasswordView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:maxWidth="@dimen/form_et_max_width"
-        app:passwordETHint = "@string/password"
-        app:passwordETHintColor="@color/white_hint"
+        app:passwordHint = "@string/password"
+        app:passwordHintColor="@color/white_hint"
         />
 
 </LinearLayout>

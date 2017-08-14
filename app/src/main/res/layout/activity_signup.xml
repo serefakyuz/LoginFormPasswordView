@@ -29,6 +29,8 @@
         app:passwordHint = "@string/password"
         app:passwordHintColor="@color/white_hint"
         app:etTextColor="@color/colorPrimary"
+        app:minPassLength="7"
+        app:strongPassLengthLimit="10"
         app:viewType="newPasswordView"
         />
 
