@@ -5,4 +5,5 @@
     <dimen name="password_status_margin_top">4dp</dimen>
     <dimen name="eye_right_left_margin">6dp</dimen>
     <dimen name="eye_top_bot_padding">8dp</dimen>
+    <dimen name="button_padding">6dp</dimen>
 </resources>

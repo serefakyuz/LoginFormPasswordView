@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Login Library</string>
-    <string name="username">Username</string>
+    <string name="email">Enail</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
+    <string name="mail_validation_fail">Invalid mail</string>
+    <string name="mail_validation_success">Success!</string>
 </resources>

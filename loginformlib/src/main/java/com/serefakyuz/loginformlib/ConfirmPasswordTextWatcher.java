@@ -8,11 +8,10 @@ import android.widget.TextView;
 
 /**
  * Created by seref-akyuz on 1/23/17.
+ *
+ * States passwords matching while users typing
  */
 public class ConfirmPasswordTextWatcher implements TextWatcher {
-
-
-
     private Context mContext;
     private TextView mTextViewPassStatus;
     private NewPasswordView mNewPasswordView;
@@ -49,7 +48,6 @@ public class ConfirmPasswordTextWatcher implements TextWatcher {
                 break;
         }
     }
-
 
     private PasswordValidationState getPasswordStatus(String password){
         if(password.equals(mNewPasswordView.getPassword())){

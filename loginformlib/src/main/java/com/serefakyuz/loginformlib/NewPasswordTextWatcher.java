@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 /**
  * Created by seref-akyuz on 1/23/17.
+ *
+ *  Determines strength level of password and updates UI
+ *
  */
 public class NewPasswordTextWatcher implements TextWatcher {
 

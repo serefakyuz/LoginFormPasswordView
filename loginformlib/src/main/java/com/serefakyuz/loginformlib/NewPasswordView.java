@@ -54,13 +54,15 @@ public class NewPasswordView extends LinearLayout {
     }
 
 
+    /**
+     * Init custom attributes of NewPasswordView
+     *
+     * @param context
+     */
     private void init(Context context){
         View view = mInflater.inflate(R.layout.view_new_password, this, true);
-        mEditTextPassword = (EditText) view.findViewById(R.id.EditTextPassword);
-        mTextViewPassStatus = (TextView) view.findViewById(R.id.TextViewPasswordStatus);
-
-
-
+        mEditTextPassword = view.findViewById(R.id.EditTextPassword);
+        mTextViewPassStatus = view.findViewById(R.id.TextViewPasswordStatus);
         String hint = mTypedArray.getString(R.styleable.PasswordView_passwordHint);
         Drawable etBackgroundColor = mTypedArray.getDrawable(R.styleable.PasswordView_etBackground);
         int etTextColor = mTypedArray.getInt(R.styleable.PasswordView_etTextColor, R.color.black);
@@ -68,13 +70,10 @@ public class NewPasswordView extends LinearLayout {
         int strongPassLengthLimit = mTypedArray.getInt(R.styleable.PasswordView_strongPassLengthLimit, DEFAULT_STRONG_PASS_LENGTH_LIMIT);
         int textColorHint = mTypedArray.getInt(R.styleable.PasswordView_passwordHintColor, R.color.dark_gray);
         int viewType = mTypedArray.getInt(R.styleable.PasswordView_viewType, 0);
-
-
         try {
             mEditTextPassword.setHint(hint);
         }catch (NullPointerException ex){
         }
-
         try {
             mEditTextPassword.setBackground(etBackgroundColor);
         }catch (NullPointerException ex){

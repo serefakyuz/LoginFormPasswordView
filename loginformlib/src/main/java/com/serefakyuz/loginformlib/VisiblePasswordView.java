@@ -15,6 +15,9 @@ import android.widget.LinearLayout;
 
 /**
  * Created by seref-akyuz on 10/24/16.
+ *
+ * The Password View that user can be view entered password.
+ *
  */
 public class VisiblePasswordView extends LinearLayout {
 
@@ -45,10 +48,16 @@ public class VisiblePasswordView extends LinearLayout {
     }
 
 
+    /**
+     *
+     * Init custom attributes of NewPasswordView
+     *
+     * @param context
+     */
     private void init(final Context context){
         View view = mInfilater.inflate(R.layout.view_visible_password, this, true);
-        mEditTextPassword = (EditText) view.findViewById(R.id.EditTextPassword);
-        mImageViewShowPassword = (ImageView) view.findViewById(R.id.ImageViewViewPass);
+        mEditTextPassword = view.findViewById(R.id.EditTextPassword);
+        mImageViewShowPassword = view.findViewById(R.id.ImageViewViewPass);
         final int textType =  mEditTextPassword.getInputType();
         mImageViewShowPassword.setOnTouchListener(new View.OnTouchListener() {
             @Override

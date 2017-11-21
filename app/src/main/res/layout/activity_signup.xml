@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/login_edittext_bg"
         android:maxWidth="@dimen/form_et_max_width"
-        android:hint="@string/username"
+        android:hint="@string/email"
         android:padding="@dimen/password_et_padding"
         android:layout_marginBottom="@dimen/password_status_margin_top"
         android:textColorHint="@color/white_hint"/>
